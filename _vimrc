@@ -1,5 +1,5 @@
-set rtp+=~/vimfiles/bundle/Vundle.vim/
-call vundle#begin('~/vimfiles/bundle')
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
@@ -32,11 +32,13 @@ set number
 
 " Tabs
 set smartindent
+set background=dark
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set encoding=utf8
 set guifont=Anonymice\ Powerline:h13
+set t_Co=256
 "Anonymous Pro for Powerline
 
 " No beep
@@ -54,7 +56,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 set laststatus=2
-let g:airline_theme='badwolf'
+let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 
