@@ -24,6 +24,7 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 
@@ -56,7 +57,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 set laststatus=2
-let g:airline_theme='luna'
+let g:airline_theme='badwolf'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 
